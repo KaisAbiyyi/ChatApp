@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.app {
+  width: 400px;
+  height: 700px;
+  border: 1px solid darkcyan;
+  margin: auto;
+  margin-top: 4rem;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.app header {
+  background-color: darkcyan;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.app header input {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.app header input:focus {
+  outline: 0;
+}
+.app #messages {
+  padding: 1rem;
+  background-color: rgb(0, 56, 56);
+  height: 100%;
+  color: white;
+}
+.app #messages .message {
+  background-color: darkcyan;
+  padding: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.app #messages .message h5 {
+  margin: 0;
+  color: cyan;
+  font-size: 15px;
+}
+.app #messages .message p {
+  margin: 0;
+}
+.app #message_form {
+  display: flex;
+  width: 100%;
+  border-radius: 0px 0px 30px 30px;
+  position: absolute;
+  gap: 0.75rem;
+  bottom: 0;
+  padding: 1rem;
+}
+.app #message_form input {
+  padding: 0.5rem 1rem;
+  border: none;
+  width: 70%;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.app #message_form input:focus {
+  outline: 0;
+}
+.app #message_form button {
+  color: white;
+  font-size: 20px;
+  width: 45px;
+  font-weight: 900;
+  height: 45px;
+  background-color: cyan;
+  border: 0;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.app #message_form button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}/*# sourceMappingURL=app.css.map */
