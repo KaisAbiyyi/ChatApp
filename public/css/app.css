@@ -39,6 +39,7 @@ body {
   background-color: rgb(8, 0, 46);
   height: 100%;
   color: white;
+  overflow: scroll;
 }
 .app #messages .message {
   background: rgb(0, 53, 208);
@@ -57,6 +58,9 @@ body {
 }
 .app #messages .message p {
   margin: 0;
+}
+.app #messages::-webkit-scrollbar {
+  display: none;
 }
 .app #message_form {
   display: flex;
