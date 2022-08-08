@@ -15,7 +15,8 @@ body {
   overflow: hidden;
 }
 .app header {
-  background-color: darkcyan;
+  background: rgb(0, 53, 208);
+  background: linear-gradient(125deg, rgb(0, 53, 208) 0%, rgb(23, 0, 128) 100%);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -25,21 +26,23 @@ body {
 .app header input {
   padding: 0.5rem 1rem;
   border: none;
+  background-color: rgb(8, 0, 46);
   border-radius: 15px;
+  color: white;
   font-size: 15px;
-  transition: 0.2s;
 }
 .app header input:focus {
-  outline: 0;
+  outline: 2px solid rgb(88, 131, 255);
 }
 .app #messages {
   padding: 1rem;
-  background-color: rgb(0, 56, 56);
+  background-color: rgb(8, 0, 46);
   height: 100%;
   color: white;
 }
 .app #messages .message {
-  background-color: darkcyan;
+  background: rgb(0, 53, 208);
+  background: linear-gradient(125deg, rgb(0, 53, 208) 0%, rgb(23, 0, 128) 100%);
   padding: 1rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -70,9 +73,12 @@ body {
   width: 70%;
   border-radius: 20px;
   font-size: 15px;
+  background: rgb(0, 53, 208);
+  background: linear-gradient(125deg, rgb(0, 53, 208) 0%, rgb(23, 0, 128) 100%);
+  color: white;
 }
 .app #message_form input:focus {
-  outline: 0;
+  outline: 2px solid rgb(88, 131, 255);
 }
 .app #message_form button {
   color: white;
@@ -80,10 +86,15 @@ body {
   width: 45px;
   font-weight: 900;
   height: 45px;
-  background-color: cyan;
+  background: rgb(88, 131, 255);
+  background: linear-gradient(125deg, rgb(88, 131, 255) 0%, rgb(37, 0, 205) 100%);
   border: 0;
   border-radius: 50%;
   transition: 0.2s;
+}
+.app #message_form button:focus {
+  transition: 0s;
+  outline: 2px solid rgb(88, 131, 255);
 }
 .app #message_form button:hover {
   transform: scale(1.05);
